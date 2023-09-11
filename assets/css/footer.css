@@ -1,0 +1,31 @@
+footer {
+  background-image: linear-gradient(10deg, #587ad9, #682ea4); /* Цвет фона */
+  color: #fff; /* Цвет текста */
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  transition: all 2s ease;
+}
+
+  footer div {
+  flex-basis: 33.33%;
+  text-align: center;
+}
+
+  footer div img {
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+}
+
+  footer p {
+  font-size: 17px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.socialnet{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,104 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #fafafa;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+}
+
+a{
+  font-family: roboto;
+  text-decoration: none;
+  font-size: 20px;
+   color: #2196F3;
+}
+
+a:hover{
+  color: #ffffff;
+  transition: .2s;
+}
+
+/* Стили для секции аккаунта */
+section {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 30px;
+}
+
+.main{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.avatar{
+  border-radius: 20px;
+}
+
+.avatar img{
+  border: 2px solid #2196F3;
+  border-radius: 15px;
+}
+
+.user_info{
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  height: 100%
+}
+
+.avatar{
+  border-radius: 5%;
+}
+
+/* Стили для блока с информацией о пользователе */
+.user_data {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
+  width: 35%;
+
+  height: 100%;
+}
+
+/* Стили для кнопок */
+.btn {
+  display: inline-block;
+  color: #fff;
+  background-color: #2196F3;
+  border: none;
+  padding: 5px 5px;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  background-color: #43c77a;
+}
+
+/*Стиль для кнопки выход*/
+.logout {
+  display: inline-block;
+  color: #fff;
+  background-color: #f72626;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-out;
+}
+
+.logout:hover {
+  background-color: #ffd620;
+}

@@ -1,0 +1,216 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: white;
+    color: #0b1524;
+    font-family: Roboto,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+a{
+    font-family: roboto;
+    text-decoration: none;
+    font-size: 20px;
+    color: #33a1a5;
+}
+
+a:hover{
+    color: #590294;
+    transition: .2s;
+}
+
+.main_content{
+    margin: 0 auto;
+    width: 1222px;
+}
+
+.con{
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1140px;
+    flex-wrap: wrap;
+}
+
+.price{
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 10px;
+    height: 198px;
+    margin: 12px;
+    overflow: hidden;
+    position: relative;
+    vertical-align: top;
+    width: 264px;
+}
+
+.price-second{
+    background: linear-gradient(0deg,rgb(183.28, 187.43, 199.22) 26.6%,rgba(5,64,130,0));
+    display: block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 30%;
+    z-index: 1;
+    width: 100%;
+}
+
+.text{
+    border-radius: 10px;
+    height: 100px;
+    margin: 15px;
+    text-align: left;
+    text-decoration: none;
+    vertical-align: top;
+    width: 264px;
+    position: absolute;
+    bottom: 0;
+    font-size: 20px;
+}
+
+
+.about-service {
+    display: block;
+    font-size: 0;
+    margin-top: 44px;
+    text-align: center;
+    width: 100%;
+}
+
+.about-service_item {
+    background: linear-gradient(50deg, #689cd8be, #165783c5);
+    border-radius: 10px;
+    display: inline-block;
+    font-size: 14px;
+    margin: 10px 12px;
+    padding: 24px 16px;
+    text-align: center;
+    vertical-align: top;
+    width: 552px;
+    color: white;
+}
+
+.about-service_item h1{
+    margin: 0;
+    padding: 0;
+}
+
+.about-service_reward {
+    background: #fff;
+    border-radius: 10px;
+    display: block;
+    margin-top: 24px;
+    padding: 8px 24px;
+    text-align: left;
+    width: 91%;
+}
+
+.about-service_reward-item {
+    display: block;
+    padding-top: 16px;
+    width: 100%;
+}
+
+.about-service_reward-content {
+    border-bottom: 1px solid #e9eaec;
+    margin-left: 64px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    color: black;
+}
+
+.about-service_reward-content>p{
+    font-size: 20px;
+    margin-top: 0px;
+}
+
+.about-service_reward-description {
+    color: rgba(0, 0, 0, 0.719);
+    display: block;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: -10px;
+    width: 100%;
+}
+
+.about-service_reward-icon {
+    align-items: center;
+    background: rgba(76, 148, 231, 0.664);
+    border-radius: 50%;
+    display: flex;
+    float: left;
+    height: 64px;
+    justify-content: center;
+    width: 64px;
+}
+
+.shield_icon{
+    width: 50px;
+    height: 50px;
+    z-index: 999;
+}
+
+
+.main-seo_container {
+    display: table;
+    table-layout: fixed;
+    width: 70%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.main-seo_cell {
+    color: #0b1524;
+    display: table-cell;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    padding: 0 12px;
+    vertical-align: top;
+    width: 50%;
+}
+
+@media only screen and (max-width: 720px) {
+  body {
+    font-size: 12px;
+  }
+
+  .main_content {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  .price {
+    width: calc(50% - 24px);
+  }
+
+  .about-service_item {
+    width: 80%;
+  }
+
+  .about-service_reward {
+    width: 95%;
+    padding: 8px 12px;
+  }
+
+  .about-service_reward-content {
+    margin-left: 48px;
+    padding-left: 8px;
+  }
+
+  .about-service_reward-icon {
+    height: 48px;
+    width: 48px;
+  }
+
+  .shield_icon {
+    width: 40px;
+    height: 40px;
+  }
+}

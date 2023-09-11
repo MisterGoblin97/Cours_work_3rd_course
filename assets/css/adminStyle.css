@@ -1,0 +1,95 @@
+body{
+    font-family: 'Roboto';
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    height: 100%;
+    background-color: #5fd4e3;
+    color: white;
+    display: flex;
+     justify-content: space-between;
+}
+
+header div{
+    width: 80%;
+    margin-top: 19px;
+}
+
+.add, .delete, .edit {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.add:hover{
+    background-color: #146b29;
+    transition: 0.2s;
+}
+
+.delete {
+    background-color: #f44336;
+}
+
+.delete:hover{
+    background-color: #e6cc59;
+    transition: 0.2s;
+}
+
+.edit {
+    background-color: #4c90af;
+}
+
+.edit:hover{
+    background-color: #3a66c5;
+    transition: 0.2s;
+}
+
+h2{
+    text-align: center;
+}
+
+.admin_element img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px
+}
+
+.admin-panel {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    border: 5px solid #5fd4e347;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.admin_element {
+    display: inline-block;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.admin_element p{
+    text-align: center;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.admin-btn{
+    display: flex;
+    justify-content: space-around;
+}
